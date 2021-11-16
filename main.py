@@ -102,7 +102,7 @@ def click_in_out(driver):
         driver.find_element_by_xpath('//*[@id="bizTip"]/div/div/div[1]/div/div/table/tbody/tr[11]/td/a').click()
         print("点击'我知道了'")
         time.sleep(TIMESLP)
-   except:
+    except:
         pass
     driver.find_element_by_xpath('/html/body/div/section/div/div/div[2]/main/div[2]/a/div/div').click()
     print("进入出入校备案")
