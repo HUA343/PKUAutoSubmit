@@ -1,4 +1,5 @@
 # PKUAutoSubmit
+我要放假我要放假我要放假我要回家
 **UPDATE 2021/10/26**
 百京吉利大学
 现在使用时会报错`ImportError: cannot import name 'PhantomJS' from 'selenium.webdriver' `，估计是selenium版本更新后去除了PhantomJS，我修复了一下，每次都只使用3.141.0版本的selenium，现在可以正常用了。
